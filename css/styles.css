@@ -82,12 +82,12 @@ em{
     padding: 5%;
 }
 
-.fas{
+.fas-feature{
     color:#ef8172;
     margin-bottom: 1.2rem;
 }
 
-.fas:hover{
+.fas-feature:hover{
     color:#ff4c68;
 }
 
@@ -126,4 +126,40 @@ em{
 
 .princing-column{
     padding: 3% 2%;
+}
+
+@media (max-width: 990px) {
+    #title{
+        text-align: center;
+    }
+    
+    .picture-phone{
+        width: 60%;
+        transform: rotate(0);
+        position: static;
+    }
+}
+
+/* Footer */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta-h3{
+    color: white;
+    font-weight: 530;
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.fas-footer{
+    padding: 0px 15px 20px;
 }
